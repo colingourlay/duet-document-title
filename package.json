@@ -1,0 +1,22 @@
+{
+  "name": "duet-document-title",
+  "version": "1.0.0",
+  "description": "Get or set document.title from a duet app.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/colingourlay/duet-document-title.git"
+  },
+  "author": "Colin Gourlay <colin@colin-gourlay.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/colingourlay/duet-document-title/issues"
+  },
+  "homepage": "https://github.com/colingourlay/duet-document-title",
+  "dependencies": {
+    "duet-channel": "^1.0.0"
+  }
+}
