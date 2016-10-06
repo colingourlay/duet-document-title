@@ -27,7 +27,7 @@ function request(argA, argB) {
 }
 
 function onRequest(data) {
-    var response;
+    var result = null;
 
     if (data.value != null) {
         document.title = data.value;
