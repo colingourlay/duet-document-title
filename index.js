@@ -15,8 +15,8 @@ function request(argA, argB) {
     if (typeof callback === 'function') {
         data.handlerKey = nextHandlerKey++;
 
-        handlers[data.handlerKey] = function (data) {
-            callback(data.result);
+        handlers[data.handlerKey] = function (result) {
+            callback(result);
         };
     }
 
